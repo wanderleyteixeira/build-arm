@@ -29,7 +29,7 @@ Compile
 
 * Once completed, you will find your router image inside the image folder:
 ```bash
-  $HOME/tomato-make/releasesrc-rt-6.x/image
+  cd $HOME/tomato-make/releasesrc-rt-6.x/image
  ```
 
 
