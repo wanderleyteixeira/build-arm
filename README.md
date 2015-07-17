@@ -16,23 +16,29 @@ Create a linux environment using a VirtualBox:
 
 * Start the virtual machine and install Debian. `Make sure that only the Standard system utilities are installed`
 
-* Once logged in, you can start preparing the system.
+* Once logged in, you can start preparing the system
 
 * Install required packages and set environment, run:
-```/var/tmp/apt.sh```
+```  /var/tmp/apt.sh```
 
-* If all goes well, you should be ready to compile Tomato ARM now.
+* If all goes well, you should be ready to compile Tomato ARM now
+
 
 Compile
 ---------------------
-```cd $HOME/tomato-make/release/src-rt-6.x.4708```
+```  cd $HOME/tomato-make/release/src-rt-6.x.4708``` 
 
-* Once completed, you will find your router image inside "$HOME/tomato-make/releasesrc-rt-6.x/image"
+* Once completed, you will find your router image inside ```$HOME/tomato-make/releasesrc-rt-6.x/image``` 
+
 
 Troubleshoot
 ---------------------
-* Type 'make help' to see the options to build for each model.'
+* Type `make help` to see the options to build for each model
 
 * To start a clean compilation:
 
-```cd $HOME/tomato-make/release/src-rt-6.x.4708/;git clean -dfx && git checkout" before compiling.'```
+```  
+cd $HOME/tomato-make/release/src-rt-6.x.4708/
+
+git clean -dfx && git checkout
+```
