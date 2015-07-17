@@ -23,19 +23,24 @@ Create a linux environment using a VirtualBox:
 
 Compile
 ---------------------
-```cd $HOME/tomato-make/release/src-rt-6.x.4708``` 
+```bash
+  cd $HOME/tomato-make/release/src-rt-6.x.4708
+```
 
-* Once completed, you will find your router image inside ```$HOME/tomato-make/releasesrc-rt-6.x/image``` 
+* Once completed, you will find your router image inside the image folder:
+```bash
+  $HOME/tomato-make/releasesrc-rt-6.x/image
+ ```
+
 
 
 Troubleshoot
 ---------------------
-* Type `make help` to see the options to build for each model
+* Type ```make help``` to see the options to build for each model
 
 * To start a clean compilation:
 
-```javascript
- 
+```bash
     cd $HOME/tomato-make/release/src-rt-6.x.4708/
     git clean -dfx && git checkout
 ```
