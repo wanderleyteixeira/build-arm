@@ -23,12 +23,11 @@ Create a linux environment using a VirtualBox:
 
 * If all goes well, you should be ready to compile Tomato ARM now.
 
-Compile:
+Compile
 ---------------------
 ```cd $HOME/tomato-make/release/src-rt-6.x.4708```
 
 * Once completed, you will find your router image inside "$HOME/tomato-make/releasesrc-rt-6.x/image"
-
 
 Troubleshoot
 ---------------------
