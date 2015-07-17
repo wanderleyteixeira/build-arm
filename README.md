@@ -1,10 +1,9 @@
 # Tomato ARM
 This script will help you create a Tomato Firmware for ARM-based router on Debian 7.8 (64-bit). This was tested on [Shibby release 130](http://tomato.groov.pl).
 
-***
 
-## Create a linux environment using a VirtualBox:
-
+Create a linux environment using a VirtualBox:
+---------------------
 * Install the free [VirtualBox](http://www.virtualbox.org/wiki/Downloads)
 
 * Download [Debian 7.8 iso](http://cdimage.debian.org/mirror/cdimage/archive/7.8.0/amd64/iso-cd/debian-7.8.0-amd64-netinst.iso) 
@@ -24,16 +23,17 @@ This script will help you create a Tomato Firmware for ARM-based router on Debia
 
 * If all goes well, you should be ready to compile Tomato ARM now.
 
-***
 
-## Compile:
+
+Compile:
+---------------------
 ```cd $HOME/tomato-make/release/src-rt-6.x.4708```
 
 * Once completed, you will find your router image inside "$HOME/tomato-make/releasesrc-rt-6.x/image"
 
-***
 
-## Troubleshoot
+Troubleshoot
+---------------------
 * Type 'make help' to see the options to build for each model.'
 
 * To start a clean compilation:
