@@ -46,6 +46,7 @@ Compile
 
 * Compile for AC68U:
 ```bash
+   $ source /home/tomato/.profile
    $ cd $HOME/tomato-make/release/src-rt-6.x.4708
    $ make ac68z V1=RT-AC6x V2=1.0
    ```
