@@ -22,7 +22,7 @@ cp $HOME/tomato-make/release/src-rt-6.x.4708/router/mysql/configure.in $HOME/tom
 
 echo 'Replacing configure* files'
 #cp -p /var/tmp/configure.new $HOME/tomato-make/release/src-rt-6.x.4708/router/mysql/configure
-cp -p /var/tmp/configure.in.new $HOME/tomato-make/release/src-rt-6.x.4708/router/mysql/configure.in
+cp -p /home/tomato/build-arm/configure.in $HOME/tomato-make/release/src-rt-6.x.4708/router/mysql/configure.in
 
 echo 'Updating mysql configuration'
 cd $HOME/tomato-make/release/src-rt-6.x.4708/router/mysql/
