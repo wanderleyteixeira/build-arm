@@ -20,37 +20,37 @@ Create a linux environment using a VirtualBox:
 
 * Install ssh, sudo, git and git-core:
 ```bash
-   # apt-get install -y openssh-server sudo git git-core
-   ```
+  # apt-get install -y openssh-server sudo git git-core
+```
 
 * Add the user you will compile tomato to the sudo group. Here, my user is called `tomato`:
 ```bash
-   # sudo usermod -a -G sudo tomato
-   ```
+  # sudo usermod -a -G sudo tomato
+```
 
 **The change will only take effect the next time the user logs in, so please logout**
 
 * Clone this repository:
 ```bash
-   $ git clone https://github.com/wbtf/build-arm.git
-   ```
+  $ git clone https://github.com/wbtf/build-arm.git
+```
 
-* If all goes well, you should be ready to prepare the Tomato ARM environment. Run:
-```bash
-   $ /home/tomato/build-arm/apt.sh
-   ```
+* If all goes well, you should be ready to start compiling the Tomato ARM now. Run ```/home/tomato/build-arm/apt.sh```
 
 
 Compile
 ---------------------
+
+* Compile for AC68U:
 ```bash
-   cd $HOME/tomato-make/release/src-rt-6.x.4708
-   ```
+  $ cd $HOME/tomato-make/release/src-rt-6.x.4708
+  $ make ac68z V1=WT-RT-AC6x V2=1.0
+```
 
 * Once completed, you will find your router image inside the image folder:
 ```bash
-   cd $HOME/tomato-make/releasesrc-rt-6.x/image
-   ```
+  cd $HOME/tomato-make/releasesrc-rt-6.x/image
+ ```
 
 
 
