@@ -18,7 +18,7 @@ Create a linux environment using a VirtualBox:
 
 * Once logged in, you can start preparing the system
 
-* Install ssh and sudo:
+* Install ssh, sudo, git and git-core:
 ```bash
   # apt-get install -y openssh-server sudo git git-core
 ```
@@ -27,9 +27,10 @@ Create a linux environment using a VirtualBox:
 ```bash
   # sudo usermod -a -G sudo tomato
 ```
-**The change will only take effect the next time the user logs in, so please logout** 
 
-* Clone this repo:
+**The change will only take effect the next time the user logs in, so please logout**
+
+* Clone this repository:
 ```bash
   $ sudo git clone https://github.com/wbtf/build-arm.git
 ```
