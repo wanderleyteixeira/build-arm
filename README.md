@@ -32,7 +32,7 @@ Create a linux environment using a VirtualBox:
 
 * Clone this repository:
 ```bash
-  $ sudo git clone https://github.com/wbtf/build-arm.git
+  $ git clone https://github.com/wbtf/build-arm.git
 ```
 
 * If all goes well, you should be ready to start compiling the Tomato ARM now. Run ```/home/tomato/build-arm/apt.sh```
