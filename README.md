@@ -10,11 +10,7 @@ Create a linux environment using a VirtualBox:
 
 * Now on Virtualbox, create a virtual machine and set approximately 20 GB of space and save
 
-* After the virtual machine is created, go to the `Settings` in VirtualBox and enable two `Network Adapters`. Set one as a `Bridge Adapter` and select the device name. Save
-
-* Mount the Debian iso on the virtual drive
-
-* Start the virtual machine and install Debian. Make sure that only the Standard system utilities are installed
+* Start the virtual machine and install Debian as shown in the instructions [here](https://github.com/wbtf/build-arm/blob/master/InstallDebian.md).
 
 * Once logged in, you can start preparing the system
 
