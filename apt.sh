@@ -47,9 +47,10 @@ fi
 echo 'Update configuration files for dnscrypt, ipset, mysql, and pcre'
 source /home/tomato/.profile
 /home/tomato/build-arm/fix.sh
-
 echo ''
+echo '================================================='
 echo 'Ready to build Tomato ARM on Debian 7.8 (64-bit)'
+echo '================================================='
 echo ''
 echo 'To compile:'
 echo 'cd $HOME/tomato-make/release/src-rt-6.x.4708'
@@ -59,4 +60,4 @@ echo 'After the compile process is done, you will find your router image inside 
 echo ''
 echo 'Type 'make help' to see the options to build for each model.'
 echo 'Run "cd $HOME/tomato-make/release/src-rt-6.x.4708/;git clean -dfx && git checkout" before compiling.'
-
+echo ''
