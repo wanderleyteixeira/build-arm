@@ -8,8 +8,6 @@ Create a linux environment using a VirtualBox:
 
 * Download [Debian 7.8 iso](http://cdimage.debian.org/mirror/cdimage/archive/7.8.0/amd64/iso-cd/debian-7.8.0-amd64-netinst.iso) 
 
-* Now on Virtualbox, create a virtual machine and set approximately 20 GB of space and save
-
 * Start the virtual machine and install Debian as shown in the instructions [here](https://github.com/wbtf/build-arm/blob/master/InstallDebian.md).
 
 * Once logged in, you can start preparing the system
