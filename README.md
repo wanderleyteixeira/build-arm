@@ -1,5 +1,5 @@
 # Compile Tomato ARM
-This script will help you create a Tomato Firmware for ARM-based router on Debian 7.8 (64-bit). This was tested on [Shibby release 130](http://tomato.groov.pl).
+This script will help you create a Tomato Firmware for ARM-based router on Debian 7.8 (64-bit). This was tested on [Shibby's build](http://tomato.groov.pl).
 
 
 Create a linux environment using a VirtualBox:
