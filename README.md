@@ -47,7 +47,7 @@ Compile
 * Compile for AC68U:
 ```bash
    $ cd $HOME/tomato-make/release/src-rt-6.x.4708
-   $ make ac68z V1=WT-RT-AC6x V2=1.0
+   $ make ac68z V1=RT-AC6x V2=1.0
    ```
 
 * Once completed, you will find your router image inside the image folder:
