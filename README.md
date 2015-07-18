@@ -31,10 +31,10 @@ Create a linux environment using a VirtualBox:
 
 * Clone this repo:
 ```bash
-  git clone https://github.com/wbtf/tomato-arm.git
+  $ sudo git clone https://github.com/wbtf/build-arm.git
 ```
 
-* If all goes well, you should be ready to start compiling the Tomato ARM now. Run ```/home/tomato/build-arm/init.sh```
+* If all goes well, you should be ready to start compiling the Tomato ARM now. Run ```/home/tomato/build-arm/apt.sh```
 
 
 Compile
