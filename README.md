@@ -18,7 +18,23 @@ Create a linux environment using a VirtualBox:
 
 * Once logged in, you can start preparing the system
 
-* If all goes well, you should be ready to compile Tomato ARM now. Run ```apt.sh```
+* Install ssh and sudo:
+```bash
+  # apt-get install -y openssh-server sudo git git-core
+```
+
+* Add the user you will compile tomato to the sudo group. Here, my user is called `tomato`:
+```bash
+  # sudo usermod -a -G sudo tomato
+```
+**The change will only take effect the next time the user logs in, so please logout** 
+
+* Clone this repo:
+```bash
+  git clone https://github.com/wbtf/tomato-arm.git
+```
+
+* If all goes well, you should be ready to start compiling the Tomato ARM now. Run ```/home/tomato/build-arm/init.sh```
 
 
 Compile
