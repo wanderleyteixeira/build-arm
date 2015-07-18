@@ -5,6 +5,10 @@
 # mysql: http://linksysinfo.org/index.php?threads/compilation-error-for-mysql.71247/#post-260895
 # ipset: http://www.linksysinfo.org/index.php?threads/docker-build-environment-for-tomatousb-shibby.71119/#post-262369
 #
+# THIS SOFTWARE IS OFFERED "AS IS", AND THE AUTHOR GRANTS NO WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, BY STATUTE,
+# COMMUNICATION OR OTHERWISE. THE AUTHOR SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+# SPECIFIC PURPOSE OR NONINFRINGEMENT CONCERNING THIS SOFTWARE.
+#
 
 echo 'Updating dnscrypt'
 cd $HOME/tomato-make/release/src-rt-6.x.4708/router/dnscrypt/
